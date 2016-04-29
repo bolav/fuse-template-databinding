@@ -1,0 +1,15 @@
+<App Theme="Basic">
+	<JavaScript>
+		module.exports = {
+			firstName : "Bjørn-Olav",
+			age : "28"
+		};
+	</JavaScript>
+	<StackPanel>
+		<Text ux:Name="Myname" Value="Temp value">
+			<TemplateDataBinding Target="Myname.Value" Key="Hi, I'm {firstName} and I'm {age}." />
+		</Text>
+		<Text ux:Name="Test2" Value="{Template Hi I'm also {firstName} and I'm {age}.}" />
+	</StackPanel>
+</App>
+
