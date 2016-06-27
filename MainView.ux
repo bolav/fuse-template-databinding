@@ -1,4 +1,4 @@
-<App Theme="Basic">
+<App>
 	<JavaScript>
 		module.exports = {
 			firstName : "Bjørn-Olav",
